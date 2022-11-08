@@ -3,15 +3,7 @@ import './App.css';
 import SearchIcon from './search.svg';
 import MovieCard from './MovieCard';
 
-const API_URL = "https:///www.omdbapi.com?apikey=KEYVALUE";
-
-// const movie1 = {
-//   "Title": "Amazing Spiderman",
-//   "Year": "2012",
-//   "imdbId": "tt2586634",
-//   "type": "movie",
-//   "Poster": "N/A"
-// }
+const API_URL = "https:///www.omdbapi.com?apikey=951d24df";
 
 function App() {
 
