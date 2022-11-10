@@ -185,6 +185,10 @@ h1 {
   opacity: 1;
 }
 
+.noMovies {
+  padding-bottom: 3rem;
+}
+
 @media screen and (max-width: 600px) {
   .app {
     padding: 4rem 2rem;

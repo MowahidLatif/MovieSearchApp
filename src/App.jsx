@@ -31,11 +31,7 @@ function App() {
             setSearchTerm(e.target.value)
           }}
         />
-        <img 
-          src={SearchIcon}
-          alt="Search"
-          onClick={() => searchMovies(searchTerm)}
-        />
+        <button onClick={() => searchMovies(searchTerm)}>Search</button>
 
         {
           movies?.length > 0 ? 
@@ -45,7 +41,7 @@ function App() {
           )}
         </div>) : (
           <div className="empty">
-            <h2>No Movies Found!</h2>
+            <h2 className='noMovies'>No Movies Found!</h2>
           </div>
           )
         }
